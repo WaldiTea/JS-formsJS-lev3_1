@@ -1,12 +1,9 @@
-let range = document.getElementById('range');
-let selector = document.getElementById('selector');
-let input = document.getElementById('input');
-let output = document.getElementById('output');
-
 function changeFontSize() {
-  output.innerHTML = input.value;
+  let output = document.getElementById('output');
 
-  output.style.fontSize = range.value + 'px';
+  output.innerHTML = document.getElementById('input').value;
 
-  output.style.fontFamily = selector.value;
+  output.style.fontSize = document.getElementById('range').value + 'px';
+
+  output.style.fontFamily = document.getElementById('selector').value;
 }

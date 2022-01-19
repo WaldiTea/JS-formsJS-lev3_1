@@ -22,6 +22,11 @@ h1 {
   margin: 2rem 0;
 }
 
+input,
+select {
+  border-radius: 0.4rem;
+}
+
 .form {
   background: #e8f0ff;
   padding: 2rem;
